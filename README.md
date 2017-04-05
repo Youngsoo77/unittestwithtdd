@@ -14,7 +14,7 @@ wercker 사용을 위해서 [wercker create app page](https://app.wercker.com/ap
 
 ## coveralls
 ```bash
-coverage run --source=superlists manage.py test
+coverage run manage.py test
 coveralls
 ```
 
