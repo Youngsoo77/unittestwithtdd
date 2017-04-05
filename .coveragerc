@@ -1,8 +1,10 @@
 [paths]
-source = /Users/young.soo/Documents/temp/tdd_exm/superlists/
+source = /Users/young.soo/Documents/temp/tdd_exm/
 [run]
 data_file = /Users/young.soo/Documents/temp/tdd_exm/superlists/.coverage
 [report]
 omit =
+	*/site-packages/*
 	*/migrations/*
 	*/wsgi.py
+	*/__init__.py
