@@ -9,6 +9,12 @@
 2. 테스트 실패 시 단위 테스트를 이용해서 어떻게 코드가 동작해야 하는지 판단 후 재정의
 3. 단위 테스트를 통과할 수 있을 정도의 최소의 코드로 작성
 
+## coveralls
+```bash
+coverage run --source=superlists manage.py test
+coveralls
+```
+
 ## file upload/download Test
 
 ## DB CRUD Test
