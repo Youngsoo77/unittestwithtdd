@@ -10,9 +10,3 @@ class HomePageTest(TestCase):
         found = resolve('/')
         # resolve 는 django 가 내부적으로 사용하는 함수로 URL을 해석해서 일치하는 뷰 함수를 찾는다.
         self.assertEqual(found.func, home_page)
-
-
-class SmokeTest(TestCase):
-
-    def test_bad_maths(self):
-        self.assertEqual(1 + 1, 3)
