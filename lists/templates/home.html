@@ -6,12 +6,12 @@
 		<h1>Hello world Let's test</h1>
 		<form method="POST">
 			<input id='id_new_item' placeholder="작업 아이템 입력" />
-
+			{% csrf_token %}
 		</form>
 
 		<table id="id_list_table">
 			<tr>
-<!-- 				<td>{{ new_item_text }}</td> -->
+				<td>{{ new_item_text }}</td>
 			</tr>
 		</table>
 	</body>
