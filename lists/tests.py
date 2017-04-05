@@ -1,6 +1,15 @@
+from django.core.urlresolvers import resolve
 from django.test import TestCase
-
+from lists.views import home_page
 # Create your tests here.
+
+
+class HomePageTest(TestCase):
+
+    def test_root_url_resolves_to_home_page_view(self):
+        found = resolve('/')
+        # resolve 는 django 가 내부적으로 사용하는 함수로 URL을 해석해서 일치하는 뷰 함수를 찾는다.
+        self.assertEqual(found.func, home_page)
 
 
 class SmokeTest(TestCase):
