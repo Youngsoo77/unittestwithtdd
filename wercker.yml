@@ -1,0 +1,14 @@
+box: python:3.5.2
+dev:
+  steps:
+    - pip-install
+    - internal/watch:
+        code: python manage.py test
+        reload: true
+build:
+  steps:
+    - pip-install
+    - script:
+        name: python unit test
+        code: |
+          python manage.py test
