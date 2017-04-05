@@ -2,3 +2,7 @@
 source = /Users/young.soo/Documents/temp/tdd_exm/superlists/
 [run]
 data_file = /Users/young.soo/Documents/temp/tdd_exm/superlists/.coverage
+[report]
+omit =
+	*/migrations/*
+	*/wsgi.py
