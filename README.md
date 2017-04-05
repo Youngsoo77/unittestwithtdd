@@ -10,7 +10,7 @@
 3. 단위 테스트를 통과할 수 있을 정도의 최소의 코드로 작성
 
 ## wercker
-wercker 사용을 위해서 [wercker create app page](https://app.wercker.com/applications/create)에서 저장소를 등록한 뒷 wercker.yml 파일을 생성한다.
+wercker 사용을 위해서 [wercker create app page](https://app.wercker.com/applications/create)에서 저장소를 등록한 뒤 wercker.yml 파일을 생성한다.
 
 ## coveralls
 ```bash
